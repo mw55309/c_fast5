@@ -80,5 +80,5 @@ int main(int argc, char *argv[]) {
      * Close and release resources.
      */
     status = H5Fclose (file);
-
+    return 0;
 }
