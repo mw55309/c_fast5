@@ -11,7 +11,6 @@ int main(int argc, char *argv[]) {
     size_t      sdim;
     herr_t      status;
     char        *fastq;
-    int         i;
  
     if ( argc != 2 ) /* argc should be 2 for correct execution */
     {
