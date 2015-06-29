@@ -15,7 +15,7 @@ int main(int argc, char *argv[]) {
 
     if ( argc <= 1 ) /* argc should be 2 for correct execution */
     {
-        printf( "usage: %s <filename 1> <filename 2> ... <filename n<\n", argv[0] );
+        printf( "usage: %s <filename 1> <filename 2> ... <filename n>\n", argv[0] );
 	exit(0);
     }
 
