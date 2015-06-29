@@ -13,7 +13,7 @@ int main(int argc, char *argv[]) {
     char        *fastq;
     int		i; 
 
-    if ( argc <= 1 ) /* argc should be 2 for correct execution */
+    if ( argc <= 1 ) /* argc should be more than 1 for correct execution */
     {
         printf( "usage: %s <filename 1> <filename 2> ... <filename n>\n", argv[0] );
 	exit(0);
@@ -74,8 +74,6 @@ int main(int argc, char *argv[]) {
 	
 		   free (fastq);
 
-	    } else {
-		   // printf ("The dataset either does NOT exist\n or some other error occurred.\n"); 
 	    }
 	
 	    /*
